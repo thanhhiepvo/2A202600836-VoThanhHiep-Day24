@@ -1,0 +1,5 @@
+🐷🔑🐷  TruffleHog. Unearth your secrets. 🐷🔑🐷
+
+2026-06-30T16:16:41+07:00	info-0	trufflehog	running source	{"source_manager_worker_id": "JoMWC", "with_units": true}
+2026-06-30T16:16:41+07:00	info-0	trufflehog	scanning repo	{"source_manager_worker_id": "JoMWC", "unit_kind": "dir", "unit": "/var/folders/bl/66n57zm10qb2bm0lm021lb780000gn/T/trufflehog-66345-3539584326", "repo": "file:///Users/thanhhiepvos/Code/VinUni/2A202600836-VoThanhHiep-Day24"}
+2026-06-30T16:16:41+07:00	info-0	trufflehog	finished scanning	{"chunks": 31, "bytes": 105201, "verified_secrets": 0, "unverified_secrets": 0, "scan_duration": "110.687791ms", "trufflehog_version": "3.95.7", "verification_caching": {"Hits":0,"Misses":0,"HitsWasted":0,"AttemptsSaved":0,"VerificationTimeSpentMS":0}}

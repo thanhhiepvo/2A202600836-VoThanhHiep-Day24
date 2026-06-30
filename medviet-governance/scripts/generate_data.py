@@ -1,4 +1,5 @@
 # scripts/generate_data.py
+import csv
 import pandas as pd
 from faker import Faker
 import random
@@ -29,6 +30,6 @@ def generate_patients(n=200):
     return pd.DataFrame(records)
 
 df = generate_patients()
-df.to_csv("data/raw/patients_raw.csv", index=False)
+df.to_csv("data/raw/patients_raw.csv", index=False, quoting=csv.QUOTE_NONNUMERIC)
 print(f"Generated {len(df)} patient records")
 print(df.head(3))

@@ -1,0 +1,36 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0 -- /Users/thanhhiepvos/Code/VinUni/2A202600836-VoThanhHiep-Day24/medviet-governance/.venv/bin/python3.12
+cachedir: .pytest_cache
+rootdir: /Users/thanhhiepvos/Code/VinUni/2A202600836-VoThanhHiep-Day24/medviet-governance
+plugins: anyio-4.14.1, Faker-40.23.0
+collecting ... collected 17 items
+
+tests/test_api.py::test_rbac_endpoints[token-bob-/api/patients/raw-get-403] PASSED [  5%]
+tests/test_api.py::test_rbac_endpoints[token-alice-/api/patients/raw-get-200] PASSED [ 11%]
+tests/test_api.py::test_rbac_endpoints[token-bob-/api/patients/anonymized-get-200] PASSED [ 17%]
+tests/test_api.py::test_rbac_endpoints[token-carol-/api/metrics/aggregated-get-200] PASSED [ 23%]
+tests/test_api.py::test_rbac_endpoints[token-bob-/api/patients/abc123-delete-403] PASSED [ 29%]
+tests/test_api.py::test_rbac_endpoints[token-alice-/api/patients/abc123-delete-200] PASSED [ 35%]
+tests/test_api.py::test_rbac_endpoints[token-dave-/api/patients/raw-get-403] PASSED [ 41%]
+tests/test_api.py::test_health_endpoint PASSED                           [ 47%]
+tests/test_pii.py::TestPIIDetection::test_cccd_detected PASSED           [ 52%]
+tests/test_pii.py::TestPIIDetection::test_phone_detected PASSED          [ 58%]
+tests/test_pii.py::TestPIIDetection::test_email_detected PASSED          [ 64%]
+tests/test_pii.py::TestPIIDetection::test_detection_rate_above_95_percent PASSED [ 70%]
+tests/test_pii.py::TestAnonymization::test_pii_not_in_output PASSED      [ 76%]
+tests/test_pii.py::TestAnonymization::test_non_pii_columns_unchanged PASSED [ 82%]
+tests/test_validation.py::test_build_patient_expectation_suite PASSED    [ 88%]
+tests/test_validation.py::test_validate_raw_patient_data PASSED          [ 94%]
+tests/test_validation.py::test_validate_anonymized_data PASSED           [100%]
+
+=============================== warnings summary ===============================
+.venv/lib/python3.12/site-packages/fastapi/testclient.py:1
+  /Users/thanhhiepvos/Code/VinUni/2A202600836-VoThanhHiep-Day24/medviet-governance/.venv/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+.venv/lib/python3.12/site-packages/spacy/cli/_util.py:23
+  /Users/thanhhiepvos/Code/VinUni/2A202600836-VoThanhHiep-Day24/medviet-governance/.venv/lib/python3.12/site-packages/spacy/cli/_util.py:23: DeprecationWarning: Importing 'parser.split_arg_string' is deprecated, it will only be available in 'shell_completion' in Click 9.0.
+    from click.parser import split_arg_string
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 17 passed, 2 warnings in 5.25s ========================

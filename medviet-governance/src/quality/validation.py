@@ -1,80 +1,131 @@
 # src/quality/validation.py
+import re
 import pandas as pd
-import great_expectations as gx
-from great_expectations.core.expectation_suite import ExpectationSuite
 
-def build_patient_expectation_suite() -> ExpectationSuite:
-    """
-    TODO: Tạo expectation suite cho anonymized patient data.
-    """
+PII_DTYPES = {"cccd": str, "so_dien_thoai": str}
+VALID_CONDITIONS = ["Tiểu đường", "Huyết áp cao", "Tim mạch", "Khỏe mạnh"]
+EMAIL_REGEX = r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+
+
+def _load_csv(path: str) -> pd.DataFrame:
+    return pd.read_csv(path, dtype=PII_DTYPES)
+
+
+def _get_gx_validator(df: pd.DataFrame):
+    import great_expectations as gx
+
     context = gx.get_context()
-    suite = context.add_expectation_suite("patient_data_suite")
+    ds_name = "patient_pandas"
 
-    # Lấy validator
-    df = pd.read_csv("data/raw/patients_raw.csv")
-    validator = context.sources.pandas_default.read_dataframe(df)
+    try:
+        datasource = context.data_sources.add_pandas(ds_name)
+    except Exception:
+        datasource = context.data_sources.get(ds_name)
 
-    # --- TASK: Thêm các expectations ---
+    asset_names = [asset.name for asset in datasource.assets]
+    asset = (
+        datasource.get_asset("patients")
+        if "patients" in asset_names
+        else datasource.add_dataframe_asset(name="patients")
+    )
 
-    # 1. patient_id không được null
+    batch_definitions = list(asset.batch_definitions)
+    batch_definition = (
+        batch_definitions[0]
+        if batch_definitions
+        else asset.add_batch_definition_whole_dataframe("whole")
+    )
+
+    return context.get_validator(
+        batch_request=batch_definition.build_batch_request(
+            batch_parameters={"dataframe": df}
+        )
+    )
+
+
+def build_patient_expectation_suite():
+    """Tạo và lưu expectation suite cho patient data (Great Expectations 1.x)."""
+    import great_expectations as gx
+
+    df = _load_csv("data/raw/patients_raw.csv")
+    validator = _get_gx_validator(df)
+
     validator.expect_column_values_to_not_be_null("patient_id")
-
-    # 2. TODO: cccd phải có đúng 12 ký tự
-    validator.expect_column_value_lengths_to_equal(
-        column=___,
-        value=___
-    )
-
-    # 3. TODO: ket_qua_xet_nghiem phải trong khoảng [0, 50]
+    validator.expect_column_value_lengths_to_equal("cccd", 12)
     validator.expect_column_values_to_be_between(
-        column=___,
-        min_value=___,
-        max_value=___
+        "ket_qua_xet_nghiem", min_value=0, max_value=50
     )
+    validator.expect_column_values_to_be_in_set("benh", VALID_CONDITIONS)
+    validator.expect_column_values_to_match_regex("email", EMAIL_REGEX)
+    validator.expect_column_values_to_be_unique("patient_id")
 
-    # 4. TODO: benh phải thuộc danh sách hợp lệ
-    valid_conditions = ["Tiểu đường", "Huyết áp cao", "Tim mạch", "Khỏe mạnh"]
-    validator.expect_column_values_to_be_in_set(
-        column=___,
-        value_set=___
-    )
+    suite = validator.get_expectation_suite()
+    suite.name = "patient_data_suite"
+    context = gx.get_context()
+    context.suites.add(suite)
 
-    # 5. TODO: email phải match regex pattern
-    validator.expect_column_values_to_match_regex(
-        column="email",
-        regex=r"___"    # TODO: email regex
-    )
+    validation_result = validator.validate()
+    return {
+        "suite_name": suite.name,
+        "expectation_count": len(suite.expectations),
+        "success": validation_result.success,
+    }
 
-    # 6. TODO: Không được có duplicate patient_id
-    validator.expect_column_values_to_be_unique(column=___)
 
-    validator.save_expectation_suite()
-    return suite
+def validate_raw_patient_data(filepath: str = "data/raw/patients_raw.csv") -> dict:
+    """Chạy expectation suite trên raw patient data."""
+    df = _load_csv(filepath)
+    validator = _get_gx_validator(df)
+    result = validator.validate()
+
+    failed = [
+        exp["expectation_config"]["type"]
+        for exp in result.results
+        if not exp.success
+    ]
+
+    return {
+        "success": result.success,
+        "failed_checks": failed,
+        "stats": {"total_rows": len(df), "columns": list(df.columns)},
+    }
 
 
 def validate_anonymized_data(filepath: str) -> dict:
-    """
-    TODO: Validate anonymized data.
-    Trả về dict: {"success": bool, "failed_checks": list, "stats": dict}
-    """
-    df = pd.read_csv(filepath)
+    df = _load_csv(filepath)
+    original_df = _load_csv("data/raw/patients_raw.csv")
+
     results = {
         "success": True,
         "failed_checks": [],
         "stats": {
             "total_rows": len(df),
-            "columns": list(df.columns)
-        }
+            "columns": list(df.columns),
+        },
     }
 
-    # Check 1: Không còn CCCD gốc dạng số thuần túy
-    # (sau anonymization, cccd phải là fake hoặc masked)
-    # TODO: implement check
+    important_cols = ["patient_id", "ho_ten", "cccd", "email", "benh"]
+    for col in important_cols:
+        if col in df.columns and df[col].isnull().any():
+            results["success"] = False
+            results["failed_checks"].append(f"Null values found in column '{col}'")
 
-    # Check 2: Không có null values trong các cột quan trọng
-    # TODO: implement check
+    if "cccd" in df.columns and "cccd" in original_df.columns:
+        leaked = set(original_df["cccd"].astype(str)) & set(df["cccd"].astype(str))
+        if leaked:
+            results["success"] = False
+            results["failed_checks"].append(
+                f"Original CCCD values still present: {len(leaked)} leaked"
+            )
 
-    # Check 3: Số rows phải bằng original
-    # TODO: implement check
+    if len(df) != len(original_df):
+        results["success"] = False
+        results["failed_checks"].append(
+            f"Row count mismatch: anonymized={len(df)}, original={len(original_df)}"
+        )
+
+    if not df["email"].astype(str).str.match(EMAIL_REGEX).all():
+        results["success"] = False
+        results["failed_checks"].append("email format invalid after anonymization")
 
     return results

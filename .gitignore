@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets & encryption keys (NEVER commit)
+.vault_key
+.vault_key*
+*.pem
+*.key
+.env
+.env.*
+
+# MedViet — raw PII data (lab: không nộp data/raw)
+medviet-governance/data/raw/*.csv
+!medviet-governance/data/raw/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# spaCy / ML caches
+.spacy_models/
+*.spacy
+
+# Great Expectations local store
+medviet-governance/gx/
+medviet-governance/uncommitted/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Submission artifacts (bản giải nén/zip — không track trong git)
+lab24_submission_*.zip
+lab24_submission_*/
+
+# Logs & temp
+*.log
+tmp/
+temp/

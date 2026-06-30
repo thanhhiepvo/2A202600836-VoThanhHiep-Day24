@@ -1,0 +1,201 @@
+patient_id,ho_ten,cccd,ngay_sinh,so_dien_thoai,email,dia_chi,benh,ket_qua_xet_nghiem,bac_si_phu_trach,ngay_kham
+bdd640fb-0667-4ad1-9c80-317fa3b1799d,Chị Hương Dương,868716903699,05/09/1945,0352596401,spham@example.com,"Bác Phúc Phạm, 895667",Tiểu đường,5.36,Bà Nhật Hoàng,28/01/2026
+1a2a73ed-562b-4f79-8374-59eef50bea63,Vân Trần,022726735636,12/09/1961,0885271415,vujane@example.org,"Bà Bảo Hoàng JohnHuyện, 183667",Tiểu đường,6.88,Quý cô Hải Đặng,23/03/2026
+5ec42e08-29a3-42e9-9d65-a441d58842de,Bà Xuân Nguyễn,798725214833,17/12/1979,0543881189,jane12@example.com,"Bà Mai Lê, 169403",Tiểu đường,9.17,Khoa Phú Trần,13/03/2026
+24933b83-7577-40a9-a491-f0b2ea1fca65,Ông Phúc Dương,301046334924,17/11/1989,0929463431,johnle@example.net,"Bác Tùng Trần, 166613",Khỏe mạnh,3.53,Thành Phạm,15/02/2026
+02f06b90-f143-462f-9c5c-0eed8da0365b,Lâm Lê,124405272300,23/04/1990,0774622592,jane67@example.net,"Quý ông Huy Lê, 916449",Huyết áp cao,3.9,Nhật Bùi,29/03/2026
+e0f3eab0-5cec-4eb5-add9-68311ca35cfb,Phúc Bảo Trần,022080383268,28/01/1953,0800729111,dmai@example.org,"Bà Kim Hoàng, 847581",Tim mạch,3.5,An Văn Nguyễn,20/03/2026
+3f76be1d-1efa-4197-b394-988f847fd9b4,Cô Hải Phạm,656423039675,10/06/1978,0817288359,johnnguyen@example.net,"Minh Hoàng, 238739",Tim mạch,6.01,Trọng Thị Vũ,04/02/2026
+5ab33edf-6e59-4ed3-a8b3-17fa18d0752b,Hải Nguyễn,870426591647,25/08/1984,0828408439,janemai@example.org,"Minh Nguyễn, 179046",Tim mạch,6.67,Vi Bùi,31/05/2026
+c0e9ab30-ed26-42e9-97e0-11b7f8102383,Bà Hải Lê,571180830768,19/08/1970,0959017343,buijane@example.com,"Ánh Trần, 161324",Huyết áp cao,6.58,Hải Đặng,11/01/2026
+eb5cf467-80ba-4d64-ba0e-cfea958ca9ba,Bảo Trần,657614793859,23/08/1997,0758525560,johnmai@example.org,"Chị Bảo Vũ, 802258",Tiểu đường,6.06,Trung Mai,24/01/2026
+50f0fd0a-750c-4b75-8ccc-9bc2a53f8a28,Trung Phú Vũ,917039650521,02/11/1980,0557476240,johnhoang@example.net,"Dương Nguyễn, 377312",Tim mạch,7.32,Bà Linh Trần,28/01/2026
+b7b56ea7-35eb-432d-9ad6-20ab48212ddb,Hưng Mai,396565559216,27/02/1971,0321498395,jane81@example.com,"Hà Hữu Dương JohnXã, 137778",Tiểu đường,8.86,Yến Nguyễn,23/01/2026
+eededb07-e623-4689-9d59-cd2a4eea04e7,Bà Lâm Hoàng,372386864960,30/10/1950,0980495880,john29@example.org,"Kim Trí Dương, 872343",Khỏe mạnh,3.92,Thảo Nguyễn,29/01/2026
+df465290-61ee-411a-9bac-27a7b386f7a4,Chị Nhật Bùi,174241403645,24/09/1951,0771405661,xnguyen@example.org,"Tùng Đức Dương, 220944",Khỏe mạnh,6.68,Nhật Thế Phạm,23/06/2026
+98b8e4cc-1bc0-44fc-89cb-394243f59a85,Bác Tùng Vũ,940423198011,30/09/1979,0915990788,john33@example.com,"Quý cô Khoa Phạm, 989208",Huyết áp cao,7.63,Vũ Đức Trần,02/04/2026
+6703b636-5380-4904-a88c-7015aab97e49,Dũng Dương,067013608442,01/07/1949,0759854504,lejane@example.net,"Huy Hữu Vũ, 808446",Huyết áp cao,7.7,Hạnh Thế Vũ,29/04/2026
+a2086977-a9f2-4336-83f4-a9a948a639d0,Trọng Dương,858124299153,22/11/1951,0338319110,emai@example.net,"Lâm Phạm, 355836",Huyết áp cao,6.44,Bà Thảo Trần,09/02/2026
+8498e113-b227-462c-b53d-4330cdda24ba,Duyên Phạm,782870184243,21/06/2002,0362416798,janemai@example.org,"Trung Trần JaneHuyện, 888295",Tiểu đường,5.88,Hải Bảo Hoàng,29/03/2026
+13d5f2f7-709b-4d97-864c-04af3d3f3799,Ánh Dương,326223865343,05/01/1960,0377666096,jane48@example.org,"Trung Tấn Vũ, 165290",Tim mạch,11.46,Chị Hương Lê,20/06/2026
+c3fe0183-e172-4725-9b52-ca5805000bc6,Quý ông Huy Đặng,085714477499,17/04/1957,0919844100,john38@example.com,"Thành Bảo Trần, 812131",Tiểu đường,4.18,Chị Lâm Mai,15/06/2026
+06e745f9-88bc-439c-9f4c-3b79fb10987f,Chị Kim Nguyễn,007703128256,01/06/1982,0914782907,jane06@example.net,"Phương Lê, 120324",Huyết áp cao,7.07,Chị Hương Vũ,28/04/2026
+0a4e5b70-a6d9-44a3-b510-ab53c7fee39f,Anh Hoàng Trần,211893261262,04/10/1996,0594217789,john19@example.com,"Chị Kim Hoàng, 126925",Tiểu đường,6.71,Quang Phạm,13/03/2026
+9793b9b4-1374-4146-b2c5-bd89b70b3420,Chị Duyên Lê,454546900197,26/07/1997,0812677477,john16@example.org,"Bà Kim Bùi, 968962",Tiểu đường,7.5,Vũ Hải Vũ,13/05/2026
+9dac6e83-4524-4ea6-a684-6099f7294951,Bà Vân Hoàng,573019384592,01/02/1955,0918707830,dangjohn@example.com,"Nhiên Mai Bảo Đặng, 611233",Tiểu đường,9.92,Quý ông Châu Đặng,03/03/2026
+e14eb70d-b380-473a-989d-9d4ae15ca666,Bảo Vũ,328342887869,17/03/1973,0322308323,nguyenjane@example.org,"Anh Tùng Bùi xã, 825391",Tim mạch,7.37,Thành Hoàng,08/03/2026
+6cedd15d-5800-4c02-87ea-7ff58db06746,Linh Phạm,113768101039,16/11/1957,0390222116,nguyenjane@example.net,"Châu Thị Trần, 288158",Tiểu đường,3.9,Cô Ngọc Hoàng,23/01/2026
+8da8eee4-0df5-4ac6-b96b-648a0ba6eab9,Hạnh Hoàng,191731961748,25/12/1942,0582111916,phamjohn@example.com,"Quý cô Nhật Mai, 760021",Tiểu đường,6.62,Trọng Dương,27/05/2026
+fe716b14-15ce-4a66-8dc8-2a1ef2f9e5fa,Minh Quang Phạm,064545807606,03/10/1979,0365260903,maijohn@example.net,"Hoàng Thị Phạm, 351516",Khỏe mạnh,4.1,Bác Minh Mai,15/03/2026
+4a8ff810-784c-4f29-9804-02a2b07aa066,Thảo Mai,946997290053,07/02/1987,0835110436,john84@example.org,"Hải Thị Lê JohnQuận, 931131",Tiểu đường,8.14,Hà Trí Trần,15/06/2026
+b04d3376-77fc-4703-9fd5-a423706c5c56,Bảo Đức Dương,136998465738,11/01/1972,0316568479,janele@example.org,"Hà Trần JaneXã, 142185",Tiểu đường,10.11,Nam Hữu Trần,14/06/2026
+6f962882-95d8-4980-bf37-d19c2e76128b,Hải Đức Trần,151853916650,21/04/1965,0719740971,john40@example.net,"Hưng Đặng, 221552",Khỏe mạnh,6.65,Cô An Hoàng,25/03/2026
+5c9d927d-84b8-41bb-b005-68d20de051a6,Bà Thảo Dương,983199718681,27/12/1954,0587169508,johnle@example.com,"Yến Phạm JohnQuận, 982277",Huyết áp cao,6.56,Nhật Xuân Vũ,27/04/2026
+b77350ca-eec2-49dc-bf95-897c276aa6ce,Cô Dương Hoàng,996789580596,28/10/1965,0868990715,john29@example.org,"Chị Lâm Bùi, 396578",Huyết áp cao,11.98,Quý ông Bảo Vũ,29/06/2026
+7250ee18-260a-4962-9d81-b7f57d5911c6,Hoàng Mai Bảo Phạm,620950755864,09/03/1991,0771449842,vtran@example.com,"Bà Nhật Dương, 138817",Huyết áp cao,10.67,Quý cô Mai Bùi,18/01/2026
+b8f21423-03ed-41f8-b4f9-3d17e912b4bf,Nhật Hoàng,041094837890,15/12/1940,0553572326,cduong@example.org,"Ông Hoàng Mai JohnPhường, 817644",Khỏe mạnh,6.08,Nhật Vũ,20/03/2026
+b4323070-a23d-4c2f-82a7-96891933918c,Thành Lê,168510945005,26/02/1986,0826803306,janedang@example.net,"Hải Xuân Hoàng, 501126",Tiểu đường,5.88,Quang Mai Đặng,26/01/2026
+75a66981-4104-48b5-a34d-b7c5760debbb,Quý cô Chi Hoàng,602582259036,13/04/2001,0920490620,john37@example.com,"Duyên Vũ, 348728",Khỏe mạnh,11.22,Minh Lê,23/02/2026
+fa5a91ca-059d-455d-8b94-3e30b303f438,Lan Nguyễn,418326980805,24/08/1998,0705253389,john30@example.org,"Minh Trí Lê JohnHuyện, 926918",Tiểu đường,9.29,Phương Đặng,12/05/2026
+53a3dd5a-4b8c-4bdc-a8dd-5e5a1712fb16,Chị Phương Vũ,391150584416,28/11/1992,0841180965,john64@example.org,"Cô Bảo Nguyễn, 114594",Tiểu đường,7.04,Ngọc Vũ,23/03/2026
+431d029f-ac1e-46d8-bfbf-397bac3e7b0d,Huy Phạm,479802481720,03/10/1984,0503910965,john71@example.com,"Vân Trần phố, 419149",Tim mạch,4.13,Quý cô An Bùi,09/06/2026
+5efa9c5b-7421-4f46-a37e-4b0122bae10e,Linh Lê,888482782020,21/04/1983,0352211293,johntran@example.org,"Lâm Bùi, 389282",Tiểu đường,6.53,Quý cô Yến Trần,17/01/2026
+98de8ebb-a3b5-4ece-a446-be72364c911a,Bảo Trần,640264945291,10/04/1953,0936956257,ppham@example.net,"Nhiên Xuân Trần phố, 793169",Tiểu đường,10.97,Cô Phương Bùi,06/03/2026
+52e2afd9-96bf-40ab-bce9-15e7c9d6a63b,Lan Hoàng,050844043172,27/04/1939,0712706423,pmai@example.org,"Minh Thị Hoàng, 132663",Huyết áp cao,9.65,Tú Phú Đặng,18/03/2026
+e8e22743-b65f-4ea9-bd82-42641ba362e7,Hạnh Quang Hoàng,746054599341,25/11/1979,0874950094,janemai@example.org,"Quý ông Nhiên Hoàng, 573489",Khỏe mạnh,6.15,Huy Văn Vũ,13/03/2026
+6d4067f4-5003-4b35-9857-8bafbac7e2b9,Hải Hoàng,454963934454,19/08/1985,0845867420,cduong@example.org,"Thảo Đặng JanePhường, 886730",Tiểu đường,11.44,Tùng Mai Mai,19/04/2026
+81e5c9f6-93f2-47cc-9a85-910d5a057c11,Quý cô Mai Phạm,385544718409,12/11/1951,0753402795,janebui@example.com,"Chị Nhật Vũ, 468074",Tiểu đường,6.43,Lâm Bùi,12/04/2026
+bdb025ff-2451-45a4-91d0-59b26699cd99,Minh Mai,326578711304,14/03/1951,0524614884,janetran@example.net,"Quý cô Thành Bùi JohnHuyện, 564637",Huyết áp cao,8.9,Vũ Lê,19/02/2026
+585d3f86-1d23-44e6-8329-20b7c143f426,Hạnh Hữu Phạm,031318096251,07/01/1971,0899134841,hoangjohn@example.net,"Mai Mai JanePhường, 551574",Tim mạch,5.36,Thành Đặng,07/05/2026
+ab05347f-d556-437d-8f08-81ee8011316b,Bà Dương Dương,089219754380,04/05/1967,0887563219,rdang@example.net,"Hải Xuân Nguyễn, 582446",Khỏe mạnh,11.03,Bác Nhiên Đặng,13/02/2026
+1422373f-8622-48d1-a683-e10796c044d0,Hưng Đức Phạm,988897868260,22/10/1959,0552472491,jane78@example.com,"Anh Hoàng Đặng, 731661",Tiểu đường,9.77,Nhật Đức Dương,25/03/2026
+72eb7474-9458-454e-8287-4f069050f7ef,Cô Nhật Bùi,935436239782,23/06/1940,0355655732,phamjohn@example.org,"Quý ông Nam Dương JaneHuyện, 180458",Khỏe mạnh,8.69,Hải Mai,02/04/2026
+f4488385-8de7-4d6c-9490-77c27674456f,Quý cô Linh Trần,479995199755,29/01/1983,0703382703,john22@example.com,"Duyên Mai, 648141",Tiểu đường,7.29,Quý cô Vi Dương,11/03/2026
+990f0c5b-adcc-4daf-969f-3ab3c6435300,Cô Nhật Bùi,478114391066,21/04/1940,0750079106,phamjane@example.net,"Thành Hoàng, 843266",Tiểu đường,10.16,Hương Bùi,09/03/2026
+20b71785-d02c-40c1-9417-0a17caaa5bbe,Chị Nhật Trần,227815249525,12/08/1972,0549117205,jane15@example.net,"Bà Hải Bùi, 908320",Khỏe mạnh,11.26,Thành Mai,07/06/2026
+6070b6a1-98e5-4499-a18c-6e1c9e374f7a,Quý cô Xuân Bùi,358610466254,22/07/1994,0327322584,john48@example.org,"Anh Trần, 485709",Tiểu đường,4.05,Quang Bảo Lê,01/04/2026
+d11fc8c0-297c-44ff-b75d-599f6b2d5b09,Huy Đức Vũ,650630089389,21/04/1939,0338346004,janepham@example.org,"Bác Tú Mai, 956375",Huyết áp cao,8.26,Ngọc Lê,10/01/2026
+62dbc850-3c5b-43a7-9fbb-f0b1808389c8,Quang Phạm,494137813864,20/07/1937,0510434236,johnbui@example.org,"Mai Bùi JaneQuận, 975522",Tim mạch,8.57,Nhiên Phú Hoàng,12/02/2026
+6b79afcc-3d0a-4f0c-8c39-4ec71f317405,Nhật Văn Hoàng,701211339380,21/01/1979,0526725426,janebui@example.org,"Hạnh Xuân Dương, 670511",Tiểu đường,7.29,Ông Hoàng Bùi,08/01/2026
+40ef3935-5f90-4ed6-bb25-664d630aa767,Anh Đức Đặng,719444214359,30/08/1960,0845458729,dtran@example.org,"Quý cô Hà Bùi, 407696",Huyết áp cao,5.79,Quý cô Duyên Mai,09/06/2026
+83f02dc7-4f61-4217-aef1-669450cae32d,Nhật Hoàng,029357523714,02/03/1938,0906973066,jane89@example.com,"Trung Mai Trần, 620306",Tiểu đường,3.89,Bác Dũng Bùi,25/05/2026
+6e3c4532-1434-4f62-acac-028cba220065,Anh Đức Phạm,574811836932,03/05/1941,0331214373,kdang@example.net,"Nhật Trần, 803787",Tim mạch,7.34,Ông Hoàng Trần,26/01/2026
+702c1821-c804-4fb7-ad97-3b679b89e5cb,Khoa Dương,021980807474,20/09/1952,0955577630,janeduong@example.com,"Mai Vũ, 392227",Tiểu đường,6.45,Quý cô Khoa Hoàng,31/03/2026
+1e2595b8-8fc9-486b-a9dd-ebf563119aca,Ông Nam Trần,737802992106,27/02/1951,0344093818,jane09@example.net,"Chi Đặng, 844031",Tiểu đường,8.52,Trọng Văn Đặng,22/01/2026
+3c9abe10-238d-4f44-8ac4-d0eb3373730e,Anh Trung Hoàng,800384459740,09/04/1977,0929771280,johnhoang@example.org,"Cô Kim Nguyễn xã, 588461",Tiểu đường,10.62,An Quang Trần,19/03/2026
+d4d60735-0e2f-4958-9e43-1e06e9247069,Lan Hoàng,458698104506,11/09/1957,0979269596,janetran@example.org,"An Trí Vũ, 790731",Huyết áp cao,11.53,Lan Lê,15/01/2026
+93a74792-c561-48dc-a436-4fcdf2d3f761,Phương Mai Dương,061106337641,26/11/1965,0333200553,jane05@example.com,"Chị Chi Lê, 587002",Huyết áp cao,6.82,Bà Hà Vũ,26/02/2026
+fcef1972-bbf4-43ce-91be-b80eb7e6a14c,Phúc Đặng,694193967294,01/02/1973,0813789321,lejane@example.com,"Bà Bảo Hoàng, 856157",Tim mạch,11.16,Hoàng Hải Vũ,29/06/2026
+4efc8248-e10b-4a47-bfae-b7487781321e,Nhiên Dương,397333489171,23/05/1972,0836568984,john55@example.com,"Cô Mai Đặng JohnHuyện, 862847",Khỏe mạnh,10.53,Anh Phúc Hoàng,14/03/2026
+5cce5ba9-31d4-4e09-8fd3-3afc91fdfa4f,Quang Phạm,852028740707,21/04/1972,0864647358,vpham@example.com,"Cô Hạnh Lê JohnQuận, 848255",Tiểu đường,6.64,Cô Hồng Vũ,20/04/2026
+ee6e2e72-53f5-41dc-a3c8-afdb83f82f16,Duyên Phạm,458038861958,19/06/1989,0905628134,rle@example.net,"Quý ông Hưng Nguyễn, 597643",Huyết áp cao,10.95,Bà Hạnh Dương,10/02/2026
+2ba6adb3-7afe-4114-9561-c8130d259caa,Nhật Thị Lê,395203894722,17/04/1977,0343302919,johnnguyen@example.com,"Trọng Trí Đặng, 495129",Khỏe mạnh,9.45,Cô Nhật Phạm,03/03/2026
+de1e994a-c5a1-4f5c-ad05-b9125ab28d4a,Quang Nguyễn,974166698778,12/07/1949,0961734214,john03@example.net,"Thành Hoàng Hoàng, Thành Hoàng Hoàng",Huyết áp cao,6.01,Bảo Trí Bùi,22/02/2026
+143b45e3-b6d1-46bb-b48f-709c49a22441,Quý ông Phúc Đặng,711421741633,11/02/1951,0799549112,tranjohn@example.org,"Hương Nguyễn, 595351",Khỏe mạnh,8.79,Anh Thành Hoàng,01/01/2026
+286ed390-edd9-4a1a-ba58-5b278ce3e7c3,Vi Nguyễn,384944026389,25/12/1982,0990250907,tranjohn@example.com,"Thành Xuân Đặng JaneQuận, 885386",Tim mạch,10.11,Dũng Bùi,23/02/2026
+fba57cc8-edaf-4766-9b78-0ede9a4ffc0c,Quý cô Hồng Phạm,602305353560,08/10/1973,0960509913,janebui@example.com,"Chị Mai Nguyễn xã, 640310",Tiểu đường,9.32,Cô Thảo Đặng,03/02/2026
+ef9240b6-52d7-4f10-ba3a-6e9623ff23d3,Lâm Mai,843609125987,07/09/1952,0506780858,jane51@example.org,"Chị Hà Mai, 525110",Tim mạch,8.8,Yến Lê,08/03/2026
+22319050-f515-4494-b818-cfd33889936a,Cô Hà Lê,725255645305,08/10/1962,0918137832,jane99@example.net,"Châu Tấn Hoàng JohnXã, 630041",Huyết áp cao,4.66,Anh Bùi,03/06/2026
+3495311e-ae27-4432-9dc1-e7eb711c7673,Cô Vi Dương,206397839485,12/07/1994,0915309570,itran@example.net,"Bà Lâm Trần, 328486",Tim mạch,6.27,Kim Lê,04/03/2026
+0f6ce9bf-fe7e-4362-8a89-b0f0105291d3,Hoàng Tấn Vũ,906333630275,13/06/1956,0799106589,jane63@example.com,"Hồng Vũ, 654531",Khỏe mạnh,9.89,Lan Phạm,26/06/2026
+8b60c511-b816-4aeb-ac6a-7c8576876c62,Hưng Lê,073767000461,24/07/1953,0585703931,johnle@example.org,"Phương Thế Hoàng, 726822",Tiểu đường,5.51,Trọng Đức Dương,14/03/2026
+c11f6bf5-379e-4467-8a2d-b2e63bfda8a6,Nhật Văn Lê,942916355012,08/01/2008,0785971312,johnduong@example.org,"Bà Duyên Lê, 720407",Tiểu đường,4.06,Anh Phú Lê,09/01/2026
+abdd1a8f-a4b0-4c89-b10b-ce9c582b91ee,Ngọc Dương,447202461590,18/04/1965,0829625898,jane00@example.net,"Lan Đặng JohnHuyện, 313214",Khỏe mạnh,4.43,Bà Yến Nguyễn,17/01/2026
+0d31812e-30c3-4756-9453-f867b97e6224,Bà Yến Hoàng,075993219354,05/07/1979,0564967412,lduong@example.org,"Hoàng Dương, 678897",Tim mạch,9.9,Dương Nguyễn,07/04/2026
+5c11ab6d-42f5-43f5-8ef4-c34d5bf86f3c,Quang Hải Đặng,371789890217,04/02/1991,0541535686,janele@example.net,"Anh Quang Lê, 445888",Tim mạch,4.01,Khoa Hải Mai,31/03/2026
+566a9ce7-af52-4b94-b186-e47aa7946320,Yến Đặng,203909601226,18/02/1969,0384628426,john27@example.org,"Nam Hữu Đặng, 342675",Huyết áp cao,7.49,Chị Nhật Trần,02/01/2026
+0f79a8a7-5f8a-44bd-b4bd-0c938177b661,Quang Đức Mai,791374614203,06/05/1974,0526406065,johnvu@example.net,"Hà Hữu Dương, 380310",Tiểu đường,10.37,Bà Xuân Lê,24/03/2026
+39d1c7ff-b27e-4442-bd7f-e9733e42df5b,Hà Hoàng,194108081703,27/04/1942,0839168984,johnmai@example.com,"Thành Bùi, 144618",Khỏe mạnh,8.68,Hải Hoàng,27/03/2026
+af36b8cc-1308-4974-ac95-b3ac0beb7c34,Kim Dương,148719436310,15/07/1983,0587926880,john18@example.org,"Ông Dũng Vũ, 859340",Khỏe mạnh,4.88,Nhật Thị Nguyễn,10/01/2026
+1375ee90-d6b3-41e4-bb6d-ca0d6fe5040b,Chị Khoa Lê,769784018308,27/08/1937,0501759164,tranjane@example.net,"Hưng Hải Vũ JohnHuyện, 261712",Tim mạch,9.98,Vân Vũ,27/02/2026
+f165d779-0154-4950-976d-e21f1b46ebdc,Nhật Vũ,718438938164,27/01/1991,0879916852,jane65@example.net,"Kim Nguyễn xã, 917018",Huyết áp cao,5.47,Tùng Hoàng Trần,12/06/2026
+85671b58-926b-4fa5-be24-5fbffa698cd2,Thành Trần,319176604928,15/02/1955,0569363896,john13@example.org,"Lâm Hải Hoàng, 212168",Khỏe mạnh,9.68,Cô Phương Lê,01/03/2026
+dcb9075e-cdd7-4460-a140-77d39ec4ea48,Tú Hoàng Dương,956648813172,09/01/1995,0397852923,janetran@example.com,"Quý ông Thành Phạm, 494322",Tim mạch,9.23,Hồng Vũ,21/01/2026
+ff4cc10f-979c-40cf-b326-1887905881df,Chi Dương,162226825201,01/05/2004,0932491698,vujane@example.com,"Duyên Phạm, 543681",Tiểu đường,11.0,Châu Thị Lê,28/03/2026
+ec6a37ad-81b1-4db9-88cc-4d49669b29b8,Cô Linh Mai,881430479114,18/09/1986,0504316722,john42@example.com,"Hải Hoàng, 203396",Tiểu đường,5.07,Nhật Trí Nguyễn,15/05/2026
+9342a09f-b00a-464c-949c-d8d48ed8a80d,Nhật Mai Dương,214384124530,19/04/1969,0568347315,jane81@example.com,"Hồng Vũ, 202365",Khỏe mạnh,7.06,Linh Nguyễn,24/02/2026
+05c8234b-1d76-4a66-b5f5-9cb0cf685878,Hương Nguyễn,729889874070,28/02/1973,0857788644,johnvu@example.com,"Hưng Hoàng Đặng, 104666",Khỏe mạnh,11.09,Anh Huy Dương,14/04/2026
+2fdc9992-8971-4eea-9f3a-098accac2fb5,Tùng Quang Đặng,808849842983,24/10/1943,0596790262,johnhoang@example.org,"Quý cô Hải Lê, 240454",Huyết áp cao,10.82,Linh Bùi,22/01/2026
+82c56b21-2430-42da-b185-0eb85f90fc87,Quý cô Kim Mai,850049888976,04/07/1963,0368312647,maijane@example.org,"Hoàng Tấn Lê, 156215",Tiểu đường,5.62,Phúc Văn Mai,05/02/2026
+816462cb-8fc3-47d3-b6bd-80c7624a2a50,Chị Kim Bùi,352886302493,03/05/1987,0392618600,janenguyen@example.com,"Thảo Lê, 635618",Khỏe mạnh,11.96,Mai Trần,18/02/2026
+5deaa737-fdab-4441-92c2-a9608b0901ab,Anh Trung Dương,278838171810,18/05/1975,0377194677,jane01@example.com,"Thành Lê, 739905",Huyết áp cao,7.47,Anh Trọng Dương,27/05/2026
+59cf0b0d-91f0-447d-8f32-1333ce315937,Quý ông Dũng Trần,063877647815,14/10/1947,0344030546,hoangjohn@example.net,"Dũng Đặng, 845951",Khỏe mạnh,6.67,Hạnh Hoàng,26/01/2026
+6a0aa7d5-a0b8-4755-84ca-a5a2a1e518a2,Thành Mai,234642262173,25/11/1964,0847043863,john88@example.org,"Bà Ngọc Lê, 381581",Khỏe mạnh,7.16,Quý cô Nhật Hoàng,15/04/2026
+c9ce44bd-7c3f-4add-9a38-5db590eeb067,Hạnh Thị Vũ,680094761607,16/03/1981,0899119056,emai@example.net,"Chị Thành Hoàng phố, 489906",Tiểu đường,6.46,Bà Nhật Trần,11/05/2026
+a7cde143-6de2-4429-bbf0-d9c1c156e501,Nam Thế Bùi,008972593992,28/07/1935,0725322135,john62@example.com,"Bà Hạnh Lê phố, 866260",Tim mạch,4.79,Chị Hải Dương,08/03/2026
+c601818b-61fa-41ba-a31a-e7c74c9bff5c,Phương Mai Mai,848174811666,12/08/1976,0553142524,edang@example.net,"Bác Huy Đặng JaneHuyện, 550246",Tim mạch,4.59,Cô Thảo Đặng,27/04/2026
+999a1d86-99db-4302-8dab-66d33f87dfc2,Nhật Phạm,845870951886,29/06/1950,0896946908,john64@example.net,"Quý ông Dũng Phạm, 505629",Tiểu đường,11.59,Bác Hưng Bùi,21/06/2026
+965d744f-0445-41a8-92af-97e4c536c66e,Khoa Trí Trần,194183264807,30/03/1951,0894263518,johndang@example.net,"An Đặng, 313068",Tim mạch,7.19,Bà Mai Dương,25/04/2026
+a4a5c736-ae59-4a52-a65b-e22bd5a386d9,Phương Nguyễn,597477821965,12/10/1988,0316198912,john49@example.com,"Khoa Thế Bùi JohnPhường, 111901",Tim mạch,11.48,Bảo Hoàng Dương,04/04/2026
+2abe1585-425e-4259-b884-16d2d28fcf68,Quý cô Thảo Dương,472098516994,23/10/1991,0761083894,vpham@example.org,"Yến Lê, 694423",Khỏe mạnh,6.45,Thành Văn Nguyễn,20/05/2026
+b90800f3-ac93-481a-92eb-eab0e4eec67c,Hải Đức Vũ,206037506210,06/09/1935,0942528986,johnle@example.org,"Nhật Mai, 966120",Tiểu đường,8.39,Tùng Bảo Lê,22/01/2026
+2de982f8-0d7b-4c04-a6e5-9b32ac5f12ef,Bà Lâm Nguyễn,596745908319,08/07/1999,0834191471,jane44@example.com,"Khoa Hữu Mai, 673108",Tim mạch,9.82,Nhật Phạm,05/01/2026
+d6ee526b-a2cd-4590-98af-393c8aa2b4c9,Thành Đặng,087081121712,24/11/1990,0538111712,buijohn@example.org,"Duyên Trần, 490586",Huyết áp cao,8.65,Phương Mai,01/04/2026
+13281726-64f4-44d6-91e9-1691a3209116,Trung Bùi,860980889693,11/10/1952,0797547556,jane69@example.org,"Tùng Đặng JaneHuyện, 526259",Khỏe mạnh,9.29,Thành Vũ,23/06/2026
+769de1e3-4eed-4124-b3b0-d6763527a5c8,Dương Vũ,788707268069,31/12/1946,0351926227,dangjohn@example.net,"Minh Phú Lê, 682959",Tim mạch,6.47,Ông Vũ Nguyễn,25/05/2026
+0fc98d2e-030f-4be9-9f17-8f9323c97a1e,Cô An Vũ,746629488783,01/09/1962,0844545257,phamjohn@example.com,"Bác Anh Trần, 701761",Tiểu đường,11.52,Bảo Dương,06/01/2026
+5a9c0679-2c3d-47e2-ad39-da75aee70ab2,Huy Đức Trần,969870787708,20/01/1968,0343095520,jane09@example.net,"Anh Trung Đặng, 539599",Tiểu đường,8.04,Quang Dương,24/05/2026
+b69f75c5-c82b-41be-a1eb-64e6fd498e20,Vân Nguyễn,926838016873,13/02/2002,0823064995,lejohn@example.net,"Khoa Phú Đặng JohnPhường, 352867",Khỏe mạnh,6.12,Khoa Phú Trần,18/05/2026
+d8b48ead-9360-4edf-b82b-5b86f2a32efd,Hải Bảo Lê,384160888782,05/10/1952,0706159529,tpham@example.com,"Thành Hữu Lê, 158896",Tiểu đường,4.65,Bà Chi Phạm,28/03/2026
+33932b6c-9d37-4fb6-aafb-3e9054ec84ce,Thành Thị Trần,890985735251,26/07/2002,0984348577,janele@example.net,"Quý cô Lâm Mai, 243079",Khỏe mạnh,7.68,Quý ông Vũ Hoàng,27/04/2026
+8fddbebc-f7ff-48d4-b509-f08a2c988bca,Quý cô Hồng Mai,672850961732,22/11/1957,0327410898,jane19@example.com,"Trung Bảo Nguyễn JohnHuyện, 881549",Khỏe mạnh,5.15,Cô Kim Dương,26/06/2026
+f68c62e6-e2a4-4909-a2dd-22d52afaab7b,Hương Trần,019821497150,05/02/1968,0827352856,john99@example.com,"Ông Trọng Bùi, 617033",Huyết áp cao,5.98,Khoa Phạm,30/05/2026
+a6a5f0ff-93fb-41d0-9d32-6d9cc9ea356a,Châu Nguyễn,793448389764,01/11/1993,0524084127,mduong@example.com,"Quý ông Hưng Vũ, 132498",Tim mạch,6.91,Nhật Hải Dương,10/06/2026
+54c29d5c-19ec-4829-8db5-d4412837f418,Trọng Quang Lê,449497259195,15/03/1988,0338971996,janetran@example.net,"Kim Nguyễn, 126985",Tim mạch,8.35,Mai Mai,25/06/2026
+4ef03f80-1d91-4e39-9801-4004793bed1b,Ngọc Trần,393689447746,23/02/1942,0555874320,john83@example.org,"Hương Đặng phố, 800596",Tim mạch,4.33,Trọng Hải Phạm,10/02/2026
+d183010f-6319-429b-973e-7bb90f9ca17b,An Hoàng,621920028926,09/11/1999,0510289397,tranjane@example.net,"Thành Lê, 232315",Khỏe mạnh,9.27,Quang Hải Nguyễn,27/06/2026
+d2938e6e-ff4d-4930-b3b0-fb536f75ee8a,Hạnh Phạm,089157062155,05/11/1941,0854583045,hbui@example.net,"Yến Lê phố, 690016",Huyết áp cao,4.51,Phương Bùi,08/06/2026
+620f230b-439e-454c-a930-16eae0bda1ee,Phương Hoàng Lê,117865670104,07/08/1955,0536878582,janehoang@example.com,"Dũng Bùi, 957091",Huyết áp cao,9.79,Bác Tùng Dương,01/06/2026
+1924c644-af52-4666-b239-09f4dbb54645,Lan Vũ,964952276329,31/12/1991,0962508898,john12@example.net,"Quang Trần, 918430",Tim mạch,8.63,Khoa Vũ,07/06/2026
+3fde9814-0ec0-4d4b-9644-1a9d3362d476,Dũng Thị Trần,080831640620,06/07/2002,0738064247,janemai@example.net,"Duyên Dương, 715388",Khỏe mạnh,10.13,Quý cô Bảo Mai,15/05/2026
+0706fec2-48fa-4e98-9723-ecdbb0588256,Tùng Mai Bảo Trần,089057799040,03/06/1992,0723614428,jane75@example.net,"Quý ông Châu Lê JohnHuyện, 737894",Tim mạch,8.53,Quý cô Vi Hoàng,11/06/2026
+4082fcda-7580-44e9-9945-0186da018d29,Minh Đặng,290009305063,02/09/1995,0958020825,jane76@example.org,"Nhật Lê, 389913",Tiểu đường,9.39,Trọng Thị Phạm,03/02/2026
+e651e3e1-3d84-4fc9-83f6-2136846d5a3b,Quý cô Duyên Dương,242626194283,28/12/1964,0748097982,johnvu@example.net,"Thành Bùi, 414777",Tiểu đường,8.81,Nhật Bùi,26/03/2026
+ceef9fa8-b9a5-44d0-8237-01f1bdacdc5e,Cô Hà Đặng,036551973240,20/09/1951,0801103513,jane89@example.net,"Quang Hoàng Hoàng JaneXã, 412848",Tim mạch,7.56,Chị Duyên Bùi,28/06/2026
+91c46efc-fcb8-46bb-a8c0-cbef57b936b0,Trọng Trần,566180599567,10/05/1992,0873432903,lle@example.net,"Quang Đặng, 550268",Huyết áp cao,11.81,Bảo Dương,01/01/2026
+5f8392d5-bb0c-4919-b30c-cff588a5fa0d,Thành Mai Phạm,659838222508,29/09/1990,0884730444,bhoang@example.org,"Quý cô Vân Hoàng, 168458",Huyết áp cao,6.81,Cô Ngọc Trần,24/03/2026
+567c5d44-862c-42fd-98ab-b2e785319f0f,Trung Thị Trần,299739788128,19/03/2008,0362903931,jane05@example.org,"Trọng Xuân Nguyễn xã, 771425",Khỏe mạnh,6.47,Chị Hồng Phạm,09/01/2026
+1bad52a8-a976-4c4d-8c47-2187fea35d37,Quý cô Ngọc Nguyễn,138525946582,01/12/1965,0991373992,janemai@example.net,"Ông Hoàng Vũ, 853681",Khỏe mạnh,8.61,Nhật Hữu Lê,22/05/2026
+3322c68b-9be7-4aec-b2da-81f07f6bd3c6,Dương Đặng,077712821537,15/08/1961,0311851100,dangjohn@example.com,"Linh Đặng JohnXã, 801520",Huyết áp cao,8.72,Hải Trần,14/01/2026
+41822509-e79f-4f3d-99ee-2c3bb93c4b0b,Cô Hồng Phạm,238222683500,21/05/1969,0372129428,jane80@example.net,"Trung Đặng xã, 752011",Tiểu đường,10.28,Chị Hải Phạm,27/05/2026
+6676cc75-6699-4af5-9d24-181c2ed087d4,Bảo Đặng,244126815912,20/11/1993,0775582649,john24@example.com,"Bà Hải Phạm, 979269",Tim mạch,10.52,Hoàng Mai,09/06/2026
+42f90f92-1036-4a81-8bc4-d7ba70d0ebcb,Quý cô Hạnh Trần,520546988701,22/05/1973,0323829611,jane55@example.com,"Nhật Hoàng, 887931",Khỏe mạnh,7.65,Bà Khoa Lê,24/06/2026
+8ced4707-3903-4b65-81c6-1eeb0ce3c8c8,Thành Đức Trần,228110084757,03/01/1969,0974409404,cnguyen@example.net,"Thành Văn Lê JohnXã, 749137",Huyết áp cao,8.1,Châu Mai Nguyễn,07/02/2026
+57423882-f34a-4949-b4ca-0ad7abe5be96,Ông Anh Phạm,595114971675,23/09/1959,0312580063,lejane@example.com,"Vũ Bùi JohnPhường, 878579",Tiểu đường,10.95,Cô Duyên Mai,05/02/2026
+6494dd5c-da29-4905-ae22-a70b1ee93260,Bà Nhật Bùi,225280954627,27/10/1987,0980321559,wpham@example.com,"Huy Đức Mai JaneXã, 919023",Khỏe mạnh,4.84,Lâm Đặng,19/01/2026
+e1f85b33-9b2d-4a2a-99bd-6240a8535961,Chị Thành Đặng,716446752434,31/12/2006,0589776039,ovu@example.org,"Nhiên Tấn Dương, 846454",Tiểu đường,9.35,Quang Bùi,09/05/2026
+ac20af11-ebd3-4927-9865-28e6afc5c20e,Nhật Đặng,317072687475,07/03/1986,0743003912,jane00@example.com,"Hải Văn Trần JaneQuận, 155642",Huyết áp cao,9.11,Vân Đặng,16/05/2026
+aef2ab2f-495f-42fc-bbc8-c77e29330fc4,Trung Đặng,417634357330,28/11/1985,0377114121,john83@example.com,"Bà An Hoàng, 506380",Huyết áp cao,5.64,Trung Phạm,10/01/2026
+9edd2182-33fd-462d-8057-e470be6127a8,Cô Chi Vũ,234761781127,25/05/1975,0842395661,hoangjohn@example.com,"Duyên Lê, 268746",Tiểu đường,4.25,Hà Bùi,25/03/2026
+27591ad4-0a39-4bf7-a7a1-58a0efffa2f4,Trung Mai Bảo Đặng,035949608642,16/01/1997,0774999075,johndang@example.net,"Hà Hoàng, 466375",Tim mạch,4.12,Phương Quang Nguyễn,01/03/2026
+c0ae0b1a-f347-4736-b7ec-07a64b27b079,Cô Hà Phạm,232874518468,11/01/1968,0579963425,jane14@example.net,"Phương Trần, 410833",Tim mạch,4.35,Minh Mai,20/06/2026
+c5f833cf-f4ce-4477-b8bc-a9ac2ada62ce,Nhật Mai Bảo Trần,612868080406,18/11/1950,0741354666,xhoang@example.com,"Ánh Dương, 176806",Tim mạch,11.09,Nam Xuân Trần,11/04/2026
+e9366a85-3a46-4be3-9255-a4de9330ba83,Quý ông Nhiên Dương,514203557409,04/06/1968,0591879304,johnpham@example.org,"Bà Khoa Nguyễn, 925115",Khỏe mạnh,7.52,Chị Phương Vũ,20/02/2026
+65262474-61a4-41ff-b00b-8b43ed3b9d13,Chị Mai Lê,878008495631,09/06/1974,0358802512,lejane@example.com,"Hải Vũ JohnHuyện, 320256",Huyết áp cao,8.38,Quý cô Hải Lê,26/01/2026
+d5b211a9-9dec-4b83-b885-8f7e2f1a25a8,Anh Châu Lê,574416384662,24/09/1948,0892459316,lejane@example.net,"Hương Hoàng, 234443",Tiểu đường,4.14,Anh Tú Dương,13/01/2026
+735d88f3-7c61-46df-915a-6b4331891f48,Trung Mai Bảo Dương,652274842328,14/08/1946,0953408665,dangjane@example.com,"Chị Mai Vũ, 566991",Huyết áp cao,8.54,Bà Lâm Phạm,20/01/2026
+d77fbeeb-14fc-4a5d-9b4b-f377a542deb9,Lâm Xuân Nguyễn,232263367499,31/10/1949,0553400105,otran@example.org,"Khoa Xuân Nguyễn, 909652",Tim mạch,8.48,Kim Vũ,01/04/2026
+808e08d2-5d26-4b1b-a593-b659172e8c68,Thảo Đặng,497264696942,25/05/1997,0935100619,tranjohn@example.com,"Hưng Dương, 377198",Tiểu đường,10.33,Chị Kim Vũ,04/04/2026
+783c91eb-635a-41f2-9c7a-f83dca9d2704,Nhật Thế Dương,172570141268,11/01/1943,0989463853,hoangjane@example.org,"Hồng Đặng, 610511",Huyết áp cao,7.16,Bà Kim Mai,21/03/2026
+a4bae8bf-83b8-4a05-93bc-0dc63ae0acdb,Dũng Dương,273692438961,19/02/1949,0937821004,hhoang@example.org,"Trọng Hoàng Trần, 145240",Khỏe mạnh,4.71,Bà Linh Phạm,08/01/2026
+2a955908-0e50-4fd8-a598-f38392803da2,Anh Đức Bùi,604665832162,12/06/2005,0841210275,buijohn@example.com,"Chị Nhật Hoàng, 818894",Tim mạch,7.92,Châu Tấn Vũ,10/03/2026
+33cd1d56-043d-42db-9bcb-404c21d8b96a,Bà Vân Nguyễn,206858610472,26/03/1970,0996761112,oduong@example.org,"Hải Đức Hoàng, 655552",Khỏe mạnh,7.03,Nam Vũ,05/03/2026
+c2f43c10-e869-407c-bdcb-fffccdfba4e9,Anh Khoa Đặng,124847146949,27/01/1954,0382342192,janedang@example.net,"Hương Vũ, 943356",Tim mạch,7.78,Nam Dương,28/01/2026
+42e4bf01-40ee-431d-95da-d216a6cdae3c,Cô Dương Nguyễn,120998075456,11/08/1955,0867117020,lejane@example.net,"Nam Trần, 244775",Tim mạch,11.65,Trọng Hoàng,22/03/2026
+19abdc15-296b-47bf-b301-bb6cb3061300,Lâm Hải Dương,795683340284,15/12/1993,0700159421,lduong@example.net,"Cô Chi Vũ, 139589",Tim mạch,8.5,Nhật Hữu Vũ,11/01/2026
+a3ea21a2-2cde-4187-91fa-82a6c60b340c,Linh Phạm,817872262068,02/08/1997,0835002558,jane14@example.net,"Nhật Văn Phạm, 917546",Khỏe mạnh,4.29,Anh Thế Vũ,16/04/2026
+b4209103-bca7-46eb-83ef-0f77848ac924,Dương Trần,687822206318,05/04/1956,0949145180,janetran@example.net,"Bà Hồng Vũ, 456480",Khỏe mạnh,11.11,Cô Vi Hoàng,07/06/2026
+400945ce-932c-4ec9-8b1b-8effd02a6cbb,Châu Đức Mai,645766977325,14/09/1991,0715119255,jane58@example.org,"Bảo Vũ, 197527",Khỏe mạnh,7.01,Bác Vũ Đặng,10/04/2026
+5a81762a-5059-477b-b9ff-89d92db13deb,Quang Vũ,128789660688,03/12/1971,0366372421,janehoang@example.net,"Phương Vũ, 144316",Tim mạch,10.84,Bảo Mai,30/03/2026
+9313b3a7-e5a1-46e4-a188-6146fc40a3d4,Nhiên Nguyễn,368548492268,10/05/2007,0985695443,john39@example.org,"Hồng Trần, 643377",Huyết áp cao,4.82,Trung Bùi,02/05/2026
+534fc96d-19ca-4c1b-94bc-f47a61223189,Bác Huy Bùi,454350443093,16/07/1975,0981422220,jane05@example.net,"Cô Dương Nguyễn, 288627",Tim mạch,11.66,Bà Mai Mai,25/05/2026
+618192de-db37-4ca7-aea5-e3418e2ac3ff,Bà Hồng Nguyễn,720894840686,08/01/1970,0877337900,xvu@example.com,"Nhật Đức Đặng JohnHuyện, 599687",Tim mạch,5.45,Phúc Tấn Trần,16/02/2026
+ee8d5daa-8eb7-4306-8f73-198e5c3d0d5f,Thành Vũ,794429004368,21/07/1965,0579524516,janehoang@example.com,"Thành Mai Bảo Dương, 762398",Khỏe mạnh,8.36,Hạnh Vũ,17/03/2026
+d9518f98-679f-4f42-9256-d7079cc05b67,Chị Ánh Vũ,333839082749,30/07/1960,0983662187,johnnguyen@example.com,"Yến Hoàng JohnPhường, 346024",Huyết áp cao,7.58,Bác Nam Trần,31/01/2026
+efd1b588-1054-42d5-9876-35761a5ed196,Phương Bảo Nguyễn,944932077293,29/09/1973,0987358095,duongjane@example.com,"Chị Mai Nguyễn phố, 795781",Tim mạch,5.52,Kim Hải Trần,25/06/2026
+8c6d768e-45bc-43ba-af52-d36e8a63b93c,Bà Hải Vũ,574373278584,16/08/1978,0906906314,lhoang@example.org,"Trung Bùi, 372427",Huyết áp cao,9.33,Anh Khoa Hoàng,05/04/2026
+5808d790-22e4-4628-9913-057dc21f84fc,Quý cô Lâm Lê,256447373028,06/02/1936,0983048032,jane47@example.com,"Phương Đức Hoàng, 362035",Huyết áp cao,11.64,Thành Trần,17/02/2026
+84408e98-3d53-4c43-a015-2b5b6c17e150,Nam Đặng,050201774140,16/07/1994,0880445111,jane24@example.net,"Chị Thành Mai, 152042",Tiểu đường,10.13,Hạnh Văn Bùi,20/02/2026
+ba23b07a-703c-4286-b717-14cd200291bb,Nam Hải Trần,131980053529,29/06/1946,0518761843,janeduong@example.org,"Dũng Dương phố, 669578",Khỏe mạnh,11.23,Hải Tấn Mai,28/05/2026
+f97f4994-1f38-4f55-833a-c4d6d4085391,Hạnh Bảo Lê,775424182381,15/07/1953,0716120949,john07@example.com,"Dũng Bùi, 413328",Huyết áp cao,7.77,Hải Nguyễn,05/06/2026
+3c6841d6-1ce8-412f-b928-7d2637c0f87a,Vi Bùi,675610216792,26/06/1993,0927940219,janeduong@example.net,"Hải Trần, 472787",Huyết áp cao,5.96,An Mai Bảo Bùi,11/02/2026
+a50784cb-c9df-401e-8ef0-0de1fb4f1972,Quý ông Minh Bùi,194615365615,23/10/1985,0996946367,khoang@example.net,"Quý cô Hạnh Lê, 971733",Tiểu đường,5.76,Ngọc Dương,22/03/2026
+5dfb1922-8aa6-4006-836a-db9dd1c56a00,Chị Nhật Lê,255185416912,19/01/1989,0587359929,janebui@example.com,"An Lê xã, 772036",Tiểu đường,6.12,Xuân Dương,29/04/2026
+2138e2e6-f013-4170-95cf-3b4c0b34fc84,Ngọc Lê,806116035740,04/12/1970,0776671285,lejane@example.com,"Chị Kim Dương, 939930",Huyết áp cao,4.53,Phương Hoàng,14/05/2026
+5e7b4866-d270-4470-aa7b-e8b1e3f342a8,Mai Dương,296564971485,24/11/1954,0855003986,jane49@example.org,"Anh Quang Mai, 704570",Huyết áp cao,8.59,Quý ông Quang Vũ,31/01/2026
+81338bdc-66cc-4376-8cca-89632e2e77a4,Lâm Lê,360068043526,17/05/2001,0559495072,janehoang@example.net,"Quý cô Ánh Lê, 516379",Huyết áp cao,4.46,Duyên Vũ,26/06/2026
+2294fa0a-8482-4c08-842c-65ad9883e9b1,Khoa Hữu Mai,062312121139,10/05/2007,0373885865,ktran@example.net,"Hà Đặng, 368691",Khỏe mạnh,6.4,Linh Mai,13/03/2026
+13c37b5d-bbf8-4a91-b7a9-f824eafa4d5b,Bác Tùng Mai,322037437463,09/10/1995,0395326431,hoangjane@example.org,"Nam Quang Đặng, 419588",Tim mạch,11.74,Ánh Nguyễn,12/04/2026
+388629ff-b2a0-4778-809d-644453ab3cce,Hạnh Vũ,662013089802,19/05/2006,0755303675,janedang@example.net,"Dương Hoàng JanePhường, 236708",Khỏe mạnh,10.28,An Thế Vũ,29/03/2026
+8fa8ae34-3233-4053-9242-ba54a6f9c0e1,Lan Lê,501234812828,13/03/1992,0580452569,vduong@example.net,"Ông Khoa Phạm, 252901",Tiểu đường,5.97,Tú Tấn Hoàng,04/05/2026
+da4ec04c-ba7e-4b86-81fa-d75327ef0a4b,Dương Trần,516750806563,27/03/1953,0928985483,john40@example.net,"Quý cô Lan Phạm, 606489",Khỏe mạnh,5.53,Nhật Đặng,13/06/2026
+2b9a118e-4165-464c-8b21-a30886dc4e34,Cô Linh Đặng,801150334094,07/02/1993,0535861060,jane84@example.org,"Minh Văn Hoàng, 633243",Tiểu đường,9.01,Quý cô Hồng Lê,06/06/2026
+32e97c2d-2fb9-4ccf-9688-85c288145bde,Phúc Mai,599520261620,27/10/2002,0955997967,zmai@example.net,"Cô Nhật Mai, 370196",Khỏe mạnh,4.11,Linh Dương,28/01/2026
+23238416-a82c-4e18-a491-982be5ad481d,Hồng Lê,283900287102,04/07/1973,0745993196,jane20@example.net,"Trọng Tấn Mai, 424008",Tim mạch,7.64,Quý cô Chi Trần,15/06/2026
+88702ae7-8ead-4a9a-915c-42cd51476e86,Cô Ngọc Lê,408052007209,12/10/1996,0881745746,john48@example.com,"Bà Lan Vũ JaneXã, 694587",Tim mạch,7.71,Anh Khoa Dương,06/03/2026
+22538040-7a02-4a6d-87a2-b171b02a06ee,Quý cô Xuân Mai,874077678216,15/05/1971,0357270819,mtran@example.org,"Huy Quang Đặng JanePhường, 440677",Huyết áp cao,11.19,Quý cô Khoa Lê,20/05/2026
+61603399-d307-4198-bc3e-b4029ba14c35,Quang Mai Mai,139377250802,22/06/1943,0788128770,jane70@example.com,"Chị Thành Lê, 911259",Khỏe mạnh,3.82,Quý ông Châu Hoàng,18/03/2026
+b0a0c1cd-0df6-4527-ab45-bc389cf65e33,Quý cô Chi Lê,544279247933,04/02/1942,0820243184,whoang@example.net,"Bà Lâm Trần, 780081",Tiểu đường,10.2,Hồng Nguyễn,08/05/2026
+8618e40d-15d6-4658-9ce9-dbbca25291f3,Hạnh Trần,739111535911,02/09/1975,0559364410,anguyen@example.org,"Bảo Văn Mai, 289473",Khỏe mạnh,7.25,Anh Bùi,01/01/2026
+75699aef-0320-4c4e-80cb-e188c3f0fac3,Chị Vân Nguyễn,445909952885,17/11/1979,0904525242,hoangjane@example.org,"Khoa Phú Trần JohnQuận, 157738",Huyết áp cao,7.9,Cô Vi Hoàng,01/05/2026
+54c3b22e-4c66-4a4d-9a70-ea8ad6881d3e,Nhật Bùi,077863762358,06/12/1965,0969141684,lejohn@example.com,"Khoa Đức Lê, 960109",Khỏe mạnh,10.6,Thành Đặng,12/01/2026

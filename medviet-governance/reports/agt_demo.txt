@@ -1,0 +1,8 @@
+✓ {'dataset': 'anonymized', 'action': 'read'} → ALLOW
+✓ {'dataset': 'aggregated', 'action': 'read', 'role': 'data_analyst'} → ALLOW
+✓ {'dataset': 'raw_pii', 'action': 'read'} → DENY
+✓ {'dataset': 'anonymized', 'action': 'export', 'destination': 'US'} → DENY
+✓ {'dataset': 'anonymized', 'action': 'export', 'destination': 'VN'} → ALLOW
+✓ {'dataset': 'anonymized', 'action': 'delete'} → DENY
+
+✓ AGT policy demo completed

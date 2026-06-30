@@ -1,5 +1,13 @@
 #!/bin/bash
 # Pre-commit hook: chạy security checks trước khi commit
+set -e
+
+ROOT="$(git rev-parse --show-toplevel)"
+cd "$ROOT/medviet-governance"
+
+VENV_BIN="$ROOT/medviet-governance/.venv/bin"
+BANDIT="${VENV_BIN}/bandit"
+PIP_AUDIT="${VENV_BIN}/pip-audit"
 
 echo "🔍 Running security checks..."
 
@@ -12,7 +20,11 @@ fi
 
 # 2. Bandit SAST scan
 echo "🐍 Running Bandit SAST..."
-bandit -r src/ -ll -q
+if [ -x "$BANDIT" ]; then
+    "$BANDIT" -r src/ -ll -q
+else
+    bandit -r src/ -ll -q
+fi
 if [ $? -ne 0 ]; then
     echo "❌ Bandit found security issues! Review above."
     exit 1
@@ -20,10 +32,16 @@ fi
 
 # 3. pip-audit dependency check
 echo "📦 Checking dependencies for CVEs..."
-pip-audit --desc on
-if [ $? -ne 0 ]; then
-    echo "⚠️  Vulnerable dependencies found! Update before committing."
-    exit 1
+if [ -x "$PIP_AUDIT" ]; then
+    "$PIP_AUDIT" --desc on || {
+        echo "⚠️  pip-audit found vulnerabilities. Run: pip install -U cryptography pip"
+        exit 1
+    }
+else
+    pip-audit --desc on || {
+        echo "⚠️  pip-audit found vulnerabilities."
+        exit 1
+    }
 fi
 
 echo "✅ All security checks passed!"
